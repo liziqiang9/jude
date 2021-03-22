@@ -1,5 +1,6 @@
-import {  MainWidget, runApp } from "../src"
+import { MainWidget } from "../src/myWidget"
+import { runApp } from "../src"
 
 window.onload = function () {
-    runApp(new MainWidget(), document.getElementById("jude"));
+    runApp(new MainWidget("start"), document.getElementById("jude"));
 }
